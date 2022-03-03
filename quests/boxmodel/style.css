@@ -1,0 +1,45 @@
+ul{
+    display: flex;
+    background-color: black;
+    color : rgb(151, 149, 149);
+    margin-bottom: 0px;
+}
+li{
+    margin: 1em;
+    list-style: none;
+}
+#titre{
+   font-weight: bold;
+}
+.carousel{
+    background-color:rgb(151, 149, 149) ;
+    height: 20em;
+}    
+section{
+    text-align: center;
+}
+#article{
+    height: 30em;
+    display: flex;
+}
+article{
+    background-color:rgb(151, 149, 149) ;
+    width: 33%;
+    margin: 1em;
+}
+h2{
+    font-weight: normal;
+}
+form{
+    margin-top: 1em;
+    border-top: solid;
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+    height: 30em;
+    justify-content: space-between;
+}
+textarea{
+    height: 18em;
+}
+
